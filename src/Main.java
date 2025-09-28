@@ -55,7 +55,7 @@ public class Main {
     }
 
     private static void showMenu(){
-        System.out.println("\n===== Library Menu =====");
+        System.out.println("\n===== Library Menu ===== ");
         System.out.println("1. View all books");
         System.out.println("2. Search a book");
         System.out.println("3. Issue a book");
