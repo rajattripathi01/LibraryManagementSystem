@@ -9,7 +9,7 @@ public class Main {
 
         while (running){
             showMenu();
-            String choice = sc.nextLine();
+            String choice =sc.nextLine();
             switch (choice){
                 case "1":
                     lib.showAllBooks();
