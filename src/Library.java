@@ -22,7 +22,7 @@ public class Library {
     }
 
     Books userBook(String userBookChoice){
-        userBookData = null;
+        userBookData =  null;
         for (Books value : booksmap.values()) {
             if (value.matchesName(userBookChoice)) {
                 userBookData = value;
